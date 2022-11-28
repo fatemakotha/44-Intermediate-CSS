@@ -91,3 +91,12 @@ hi {
     left: 480px;
 
 }
+
+/*---------FIXED POSITIONING-------------*/
+
+.cont {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+}
