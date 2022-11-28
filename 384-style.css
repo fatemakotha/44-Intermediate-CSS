@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+
+hi {
+  margin-top: 0;
+  color: blue;
+}
+
+/*---------STATIC POSITIONING-------------*/
+
+.top-container {
+  background-color: green;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+
+}
+
+.middle-container {
+  background-color: red;
+  border: solid 20px;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  margin-left: 260px;
+}
+
+.bottom-container {
+  background-color: blue;
+  border: solid 10px;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  margin-left: 540px;
+}
+
+/*---------ABSOLUTE POSITIONING-------------*/
+.top {
+    background-color: cyan;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.middle {
+    background-color: grey;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 240px;
+}
+
+.bottom {
+    background-color: pink;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 480px;
+    margin-top: 240px;
+}
+
+/*---------RELATIVE POSITIONING-------------*/
+
+.one {
+    background-color: black;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.two {
+    background-color: yellow;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 240px;
+    bottom: 0px;
+
+}
+
+.three {
+    background-color: green;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 480px;
+
+}
